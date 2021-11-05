@@ -6,7 +6,6 @@ const Container = styled.div`
   background-color: white;
   color: black;
   width: 100%;
-  height: 100px;
 `;
 
 const Header = styled.h1`
@@ -19,7 +18,7 @@ const SkillsSection = () => {
   return (
     <Container>
       <Header>My still developing skills</Header>
-      <GradientLine width="35%" />
+      <GradientLine width="45%" />
       <SkillsBottom />
     </Container>
   );
