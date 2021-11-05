@@ -17,7 +17,7 @@ const Header = styled.h1`
 const SkillsSection = () => {
   return (
     <Container>
-      <Header>My still developing skills</Header>
+      <Header>My skills</Header>
       <GradientLine width="45%" />
       <SkillsBottom />
     </Container>

@@ -13,7 +13,9 @@ const Container = styled.div`
 `;
 
 const ProjectImage = styled.div`
-  background-color: ${COLORS.ownOrange};
+  background-color: ${COLORS.ownBlue};
+  color: white;
+  line-height: calc(250px * 0.6);
   height: 60%;
   width: 100%;
 `;
