@@ -1,9 +1,9 @@
 import styled from "styled-components";
-import NavSection from "./NavSection";
-import PortfolioName from "./PortfolioName";
 import IntroImage from "../../resources/images/intro.jpg";
 import Intro from "../introSection/Intro";
 import GradientLine from "../../library/common/components/GradientLine";
+import NavSection from "./NavSection";
+import PortfolioName from "./PortfolioName";
 
 const Container = styled.div`
   background-image: url(${IntroImage});

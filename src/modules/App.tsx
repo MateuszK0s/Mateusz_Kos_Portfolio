@@ -1,6 +1,6 @@
 import ProjectsSection from "./myProjects/ProjectsSection";
 import SkillsSection from "./skills/SkillsSection";
-import TopBox from "./topBar/TopBox";
+import TopBox from "./topBox/TopBox";
 
 function App() {
   return (

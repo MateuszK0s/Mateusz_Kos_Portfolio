@@ -18,6 +18,7 @@ const Container = styled.button`
     border: 2px solid ${COLORS.ownOrange};
     color: ${COLORS.ownOrange};
   }
+  user-select: none;
 `;
 
 const HireButton = () => {

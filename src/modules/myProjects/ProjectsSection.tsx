@@ -1,10 +1,10 @@
 import styled from "styled-components";
+import ProjectsBottom from "./ProjectsBottom";
 
 const Container = styled.div`
-  background-color: #1c2d3e;
+  background-color: #202835;
   color: white;
   width: 100%;
-  height: 200px;
 `;
 
 const Header = styled.h1`
@@ -18,6 +18,7 @@ const ProjectsSection = () => {
   return (
     <Container>
       <Header>My latest projects</Header>
+      <ProjectsBottom />
     </Container>
   );
 };
