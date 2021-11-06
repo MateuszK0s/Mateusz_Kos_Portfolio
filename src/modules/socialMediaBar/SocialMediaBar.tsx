@@ -7,16 +7,16 @@ import COLORS from "../../resources/styles/colors";
 
 const Container = styled.div`
   width: 100%;
-  height: 60px;
+  height: 40px;
   padding-top: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: start;
 `;
 
 const SocialMediaIcon = styled.div`
   img {
     height: 100%;
-    margin: 0 50px;
+    margin: 0 20px;
     overflow: inherit;
     border-radius: 15px;
     :hover {
@@ -46,7 +46,6 @@ const SocialMediaBar = () => {
           <img src={facebookIcon} alt="My Facebook profile" />
         </SocialMediaIcon>
       </Container>
-      <GradientLine width="45%" />
     </>
   );
 };
